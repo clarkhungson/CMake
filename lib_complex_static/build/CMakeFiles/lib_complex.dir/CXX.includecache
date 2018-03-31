@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ComplexNumber.h
+
+/home/thson/working/Cplusplus/lib_complex/src/ComplexNumber.cpp
+stdlib.h
+-
+stdio.h
+-
+iostream
+-
+ComplexNumber.h
+/home/thson/working/Cplusplus/lib_complex/src/ComplexNumber.h
+

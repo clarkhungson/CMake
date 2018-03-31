@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8.12)
+include_directories(include)
+set(SOURCES src/main.cpp src/ComplexNumber.cpp)
+project (app)
+add_executable(app ${SOURCES})
+set(CMAKE_BUILD_TYPE Debug)
