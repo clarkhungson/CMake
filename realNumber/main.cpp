@@ -6,6 +6,7 @@ using namespace std;
 
 
 // Comment from branch 1
+// Comment from branch 2
 int main()
 {
 	cout << "Helllo world!" << endl;
